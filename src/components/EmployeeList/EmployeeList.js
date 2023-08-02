@@ -1,5 +1,5 @@
 import React from 'react';
-import {style, styled} from "styled-components";
+import {styled} from "styled-components";
 import EmployeeListItem from '../EmployeeListItem/EmployeeListItem';
 
 const StyledEmployeeList = styled.div`

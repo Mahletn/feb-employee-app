@@ -4,7 +4,7 @@ import { styled } from "styled-components";
 
 const StyledContainer = styled.div`
   max-width: 1200px;
-  backgound-color: #f4f4f4;
+  background-color: #f4f4f4;
   margin: 0 auto;
   display: flex;
   height:100vh;

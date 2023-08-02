@@ -1,16 +1,15 @@
-import React from 'react'
-import {styled} from "styled-components";
+import React from "react";
+import { styled } from "styled-components";
 
 const StyledEmployeeDetail = styled.div`
-height: 70%;
-width: 50%;
-border: 1px solid brown;
+  height: 70%;
+  width: 50%;
+  border: 1px solid brown;
+  background-color: #FFEBCD;
 `;
 
 function EmployeeDetail() {
-  return (
-    <StyledEmployeeDetail>EmployeeDetail</StyledEmployeeDetail>
-  )
+  return <StyledEmployeeDetail>EmployeeDetail</StyledEmployeeDetail>;
 }
 
 export default EmployeeDetail;

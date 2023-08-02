@@ -6,7 +6,7 @@ const StyledEmployeeListItem = styled.div`
  margin-top:5px;
  backgoround-color; whit;
  align-items: center;
- padding; 5px, 10px;
+ padding: 5px 10px;
  box-shadow: 0px 4px 8px rgb(0, 0, 0, 0.25)
 `;
 
@@ -17,8 +17,8 @@ border-radius: 50%;
 `;
 
 const StyledContent = styled.div`
-margin-lift; 10px;
-text-align; left;
+margin-left:10px;
+text-align: left
 p, h4 {
     margin: 0;
 }

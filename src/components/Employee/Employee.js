@@ -12,8 +12,7 @@ function Employee({ employeesData, setEmployeesData }) {
     <Container>
       <HomePage
         employeesData={employeesData}
-        setEmployeesData={setEmployeesData}
-      />
+        setEmployeesData={setEmployeesData}/>
       <EmployeeDetail />
     </Container>
     </div>
