@@ -2,7 +2,7 @@ import React from 'react'
 import {styled} from "styled-components";
 
 const StyledEmployeeListItem = styled.div`
- display; flex;
+ display:flex;
  margin-top:5px;
  backgoround-color; whit;
  align-items: center;
@@ -17,8 +17,8 @@ border-radius: 50%;
 `;
 
 const StyledContent = styled.div`
-margin-left:10px;
-text-align: left
+margin-left: 30px;
+text-align: left;
 p, h4 {
     margin: 0;
 }
@@ -39,7 +39,7 @@ function EmployeeListItem({employeesData}) {
                 </StyledContent>
                 </StyledEmployeeListItem>
             );
-        } ):null}
+        } ): null}
         </>
     </div>
   );

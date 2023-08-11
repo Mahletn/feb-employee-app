@@ -5,7 +5,7 @@ const StyledEmployeeDetail = styled.div`
   height: 70%;
   width: 50%;
   border: 1px solid brown;
-  background-color: #FFEBCD;
+  background-color: #F0FFFF;
 `;
 
 function EmployeeDetail() {

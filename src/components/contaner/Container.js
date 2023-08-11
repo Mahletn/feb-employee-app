@@ -4,11 +4,11 @@ import { styled } from "styled-components";
 
 const StyledContainer = styled.div`
   max-width: 1200px;
-  background-color: #f4f4f4;
+  background-color: #F0FFFF;
   margin: 0 auto;
   display: flex;
   height:100vh;
-  padding: 4rem 2rem;
+  padding: 4px 2px;
   gap: 10px;
 `;
 

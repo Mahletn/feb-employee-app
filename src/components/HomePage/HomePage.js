@@ -2,9 +2,10 @@ import React from "react";
 import Employee from "../Employee/Employee";
 import EmployeeList from "../EmployeeList/EmployeeList";
 import {styled} from "styled-components";
+import SearchBar from "../SearchBar/SearchBar";
 
 const StyledHomePage = styled.div `
-      background-color: #fff;
+      background-color: white;
       width: 50%;
       height: 70%;
       border: 1px solid orange;
@@ -17,6 +18,7 @@ export function HomePage({ employeesData, setEmployeesData }) {
 //   };
   return (
     <StyledHomePage>
+      <SearchBar employeesData = {employeesData} setEmployeesData={setEmployeesData}/>
       <EmployeeList
         employeesData={employeesData}
         setEmployeesData={setEmployeesData}/>
